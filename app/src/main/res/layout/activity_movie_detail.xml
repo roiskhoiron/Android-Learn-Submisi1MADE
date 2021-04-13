@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MovieDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imgv_photo"
+            android:layout_width="170dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="27dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/nama_film"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/nama_film"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/tanggal_rilis"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/release"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/tanggal_rilis"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_release"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/kategori"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/kategori"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/dirrector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_category"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/sutradara"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_dirrector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dirrector"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/imgv_photo"
+            android:text="@string/sutradara"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgv_photo"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="26dp"
+        android:ellipsize="end"
+        android:text="@string/desc" />
+</LinearLayout>

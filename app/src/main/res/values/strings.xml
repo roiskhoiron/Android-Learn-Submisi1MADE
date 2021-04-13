@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Submisi 1 MADE</string>
+    <string name="nama_film">title :</string>
+    <string name="desc">Description or Sinopsis movie film. Description or Sinopsis movie film. Description or Sinopsis movie film. Description or Sinopsis movie film. Description or Sinopsis movie film. Description or Sinopsis movie film. Description or Sinopsis movie film.</string>
+    <string name="tanggal_rilis">release date :</string>
+    <string name="kategori">category :</string>
+    <string name="sutradara">director :</string>
+
+    <string-array name="movie_name">
+        <item>Green Book</item>
+        <item>Bad Boys III</item>
+        <item>Free Guy</item>
+        <item>The Little Stranger</item>
+        <item>Book Club</item>
+        <item>The Book of Henry</item>
+        <item>Spies in Disguise</item>
+        <item>The Jungle Book</item>
+        <item>21 Bridges</item>
+        <item>The Hate U Give</item>
+    </string-array>
+
+    <array name="movie_banner">
+        <item>@drawable/green_book</item>
+        <item>@drawable/bad_boys_iii</item>
+        <item>@drawable/free_guy</item>
+        <item>@drawable/the_little_stranger</item>
+        <item>@drawable/book_club</item>
+        <item>@drawable/the_book_of_henry</item>
+        <item>@drawable/spies_in_disguise</item>
+        <item>@drawable/the_jungle_book</item>
+        <item>@drawable/bridges</item>
+        <item>@drawable/the_hate_u_give</item>
+    </array>
+    
+    <string-array name="release_date">
+        <item>30 Januari 2019</item>
+        <item>17 Januari 2020</item>
+        <item>1 Juli 2020</item>
+        <item>30 Agustus 2018</item>
+        <item>18 Mei 2018</item>
+        <item>21 September 2017</item>
+        <item>25 Desember 2019</item>
+        <item>8 April 2016</item>
+        <item>23 November 2019</item>
+        <item>19 Oktober 2018</item>
+    </string-array>
+
+    <string-array name="director">
+        <item>Peter Farrelly</item>
+        <item>Bilall Fallah, Adil El Arbi</item>
+        <item>Shawn Levy</item>
+        <item>Lenny Abrahamson</item>
+        <item>Bill Holderman</item>
+        <item>Colin Trevorrow</item>
+        <item>Nick Bruno, Troy Quane</item>
+        <item>Jon Favreau</item>
+        <item>Brian Kirk</item>
+        <item>George Tillman Jr</item>
+    </string-array>
+
+    <string-array name="category_film">
+        <item>Drama/Komedi-drama</item>
+        <item>Cerita seru/Laga</item>
+        <item>Fiksi ilmiah/Laga</item>
+        <item>Drama/Misteri</item>
+        <item>Drama/Film Roman</item>
+        <item>Drama/Kejahatan</item>
+        <item>Fiksi ilmiah/Laga</item>
+        <item>Drama/Fantasi</item>
+        <item>Drama/Misteri</item>
+        <item>Drama/Kejahatan</item>
+
+    </string-array>
+
+    <string-array name="movie_desc">
+        <item>Ketika Tony Lip (Mortensen), seorang penjaga dari lingkungan Italia-Amerika di Bronx, disewa untuk menjadi supir dari Dr. Don Shirley (Ali), pianis kulit hitam kelas dunia, dalam tur konser dari Manhattan ke Deep South, mereka harus bergantung pada "Buku Hijau" untuk membimbing mereka ke beberapa tempat yang aman pada saat itu bagi orang Afrika-Amerika. Dihadapkan dengan rasisme, bahaya , serta cerita kemanusiaan dan humor yang tak terduga ,mereka terpaksa mengesampingkan perbedaan untuk bertahan hidup dan dalam perjalanan.</item>
+        <item>Bad Boys for Life adalah film sepasang polisi yang disutradarai Adil El Arbi and Bilall Fallah, diproduksi Jerry Bruckheimer dan Will Smith, dan dibintangi Will Smith dan Martin Lawrence. Bad Boys for Life dijadwalkan ditayangkan pada 17 Januari 2020 oleh Columbia Pictures.</item>
+        <item>Diterjemahkan dari bahasa Inggris-Free Guy adalah film komedi aksi fiksi ilmiah Amerika yang akan datang yang disutradarai oleh Shawn Levy, dari sebuah skenario oleh Matt Lieberman dan Zak Penn, dan sebuah cerita oleh Lieberman. Dibintangi oleh Ryan Reynolds, Jodie Comer, Joe Keery, Lil Rel Howery, Utkarsh Ambudkar dan Taika Waititi.</item>
+        <item>Dr. Faraday diminta untuk merawat orang sakit di sebuah rumah tua. Dia mulai memperhatikan bahwa hal-hal aneh terjadi di sana yang meyakinkannya bahwa tempat itu berhantu.</item>
+        <item>Diterjemahkan dari bahasa Inggris-Book Club adalah film komedi romantis Amerika tahun 2018 yang disutradarai oleh Bill Holderman, dalam debutnya sebagai sutradara, dan ditulis oleh Holderman dan Erin Simms.</item>
+        <item>The Book of Henry merupakan sebuah film drama Amerika Serikat yang dirilis pada tahun 2017. Film yang disutradarai oleh Colin Trevorrow ini diperankan oleh Naomi Watts, Jaeden Lieberher dan masih banyak lagi. Film ini dirilis pada 16 Juni 2017.</item>
+        <item>Mata-mata super Lance Sterling (Will Smith) dan ilmuwan Walter Beckett (Tom Holland) memiliki kepribadian yang berseberangan. Lance adalah sosok yang rapih, elegan dan mempesona, sedangkan Walter… tidak seperti itu. Ketika situasi yang tidak diharapkan terjadi, duet yang tidak wajar ini terpaksa harus bekerja sama dalam sebuah misi yang membutuhkan penyamaran yang hampir mustahil – yakni mengubah Lance menjadi… burung merpati yang berani, garang, dan agung.</item>
+        <item>The Jungle Book adalah film fantasi petualangan Amerika Serikat tahun 2016 yang disutradarai oleh Jon Favreau dan diproduseri oleh Jon Favreau dan Brigham Taylor.</item>
+        <item>Pasca terbunuhnya delapan kepolisian NYPD. Andre Davis (Chadwick Boseman) memutuskan menyegel pulau Manhattan. 21 Jembatan, 3 jalur sungai dan kereta ditutup demi menangkap pelaku pembunuhan. Namun dibalik pengejaran ini terungkap konspirasi besar yang menghubungkan kejadian masa lalu Davis dan kasus yang sedang dikerjakannya.</item>
+        <item>The Hate U Give merupakan film drama Amerika Serikat tahun 2018 yang disutradarai oleh George Tillman Jr. dan skenarionya ditulis oleh Audrey Wells. Film ini diadaptasi dari novel berjudul sama karya Angie Thomas.</item>
+    </string-array>
+</resources>
